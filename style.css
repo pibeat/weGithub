@@ -1,0 +1,202 @@
+body {
+    margin: 30px 300px 40px 300px;
+    font-family: 'Poppins', sans-serif;
+    background-image:url(https://img.freepik.com/premium-photo/abstract-blue-background-with-smooth-shining-lines_476363-2570.jpg?w=1380);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text {
+    padding: 10px 30px 40px 30px;
+    background: #7abcff26;
+
+    backdrop-filter: blur(5px);
+    margin: 0 auto;
+    border-radius: 4px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.285);
+}
+
+.container {
+    text-align: right;
+    padding-right: 0;
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+
+.change {
+    height: 29px;
+    width: 270px;
+    border-color:rgb(255, 153, 0);
+    transition: all 1.5s ease-in-out;
+}
+
+.change:focus:focus-within {
+    width: 200px;
+    
+}
+
+.btn {
+   font-size: 12px;
+    color: transparent;
+    border-width: 1px;
+    width: 70px;
+    height: 29px;
+    border-radius: 1px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+.btn:hover {
+    color:rgb(102, 61, 1);
+    background-color:rgb(255, 153, 0);
+    border-color:rgb(255, 153, 0);
+}
+
+.det {
+color: rgb(58, 26, 26);
+    text-align: right;
+    font-size: 13px;
+    margin-left: 200px;
+}
+
+
+.city {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    line-height: 0.1px;
+
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 35px;
+    line-height: 0.3px;
+
+}
+
+#farenheit {
+    transition: all 1s ease-in-out;
+}
+
+#farenheit:hover {
+    color: rgb(255, 255, 255);
+
+
+}
+
+
+#celsius {
+    transition: all 1s ease-in-out;
+}
+
+#celsius:hover {
+    color: rgb(255, 255, 255);
+}
+
+.info {
+    display: inline-block;
+}
+
+.sun {
+    fill: #ffe168;
+    stroke: #ffe168;
+    stroke-width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+
+.details {
+    color: black;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 13px;
+    padding-left: 9px;
+    padding-top: 25px;
+
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 270px 600px;
+    grid-gap: 20px;
+}
+
+
+
+#weekday {
+    text-align: right;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.205);
+}
+
+
+.section2 {
+    padding: 20px 30px 10px 30px;
+    background: #f4f9ff;
+    border-radius: 4px;
+    text-align: center;
+    display: block;
+    margin: 10px 0px;
+    color: rgb(0, 0, 0);
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.285);
+}
+
+#temp {
+    color: gray;
+    cursor: pointer;
+}
+
+#temp1 {
+    color: black;
+    cursor: pointer;
+}
+
+
+#temp:hover {
+    color: black;
+}
+
+#temp:visited {
+    color: black;
+}
+
+hr {
+
+    border-width: 3px;
+margin-top: 80px;
+
+}
+
+
+.chart {
+    
+    color: blue;
+}
+
+.chart1 {
+    color: blue;
+    margin-top: 70px;
+        margin-bottom: 28px;
+}
+
+.chart2 {
+    color: blue;
+    margin-top: 43px;
+    margin-bottom: 56px;
+}
+
+.chart3 {
+    color: blue;
+    margin-top: 35px;
+    margin-bottom: 60px;
+
+}
+
+.chart4 {
+    color: blue;
+    margin-top: 60px;
+        margin-bottom: 37px;
+}
